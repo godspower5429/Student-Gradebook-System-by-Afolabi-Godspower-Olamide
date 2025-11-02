@@ -1,6 +1,9 @@
+# CSC 825
+# NAME: AFOLABI GODSPOWER OLAMIDE
+
 from abc import ABC, abstractmethod
 
-# Abstraction: Abstract Student base class
+# Abstraction
 class Student(ABC):
     def __init__(self, name):
         self._name = name  # Encapsulation: protected attribute
@@ -52,7 +55,7 @@ class Gradebook:
 if __name__ == "__main__":
     gradebook = Gradebook()
 
-    # Add students with Nigerian names
+    # Students
     chinedu = Undergraduate("Chinedu")
     adesuwa = Postgraduate("Adesuwa")
     gradebook.add_student(chinedu)
